@@ -7,7 +7,7 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: target/get-books-fx-1.0-SNAPSHOT.jar
-      Handler: com.revature.get_books.GetVideogamesHandler
+      Handler: com.revature.get_videogames.GetVideogamesHandler
       Runtime: java8.al2
       Description: Java function
       MemorySize: 256
